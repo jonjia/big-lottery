@@ -1,8 +1,7 @@
 <template>
   <div>
-    <Logos mb-6 />
     <Suspense>
-      <PageView />
+      <Search />
       <template #fallback>
         <div op50 italic>
           <span animate-pulse>Loading...</span>
